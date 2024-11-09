@@ -1,0 +1,71 @@
+/* Styles généraux pour la navbar */
+.navbar {
+    background-color: #343a40; /* Couleur de fond sombre */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    color: #265073; /* Couleur pour le titre */
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-right: 17rem;
+}
+
+.navbar-brand:hover {
+    color: #9AD0C2;
+}
+
+/* Styles pour les liens de navigation */
+.navbar-nav .nav-link {
+    color: #265073;
+    font-weight: 500;
+    margin-right: 5rem;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #9AD0C2; /* Couleur d'effet au survol */
+
+}
+
+
+
+
+.dropdown-menu {
+    background-color: #2D9596;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu .dropdown-item {
+    color: #F1FADA;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #9AD0C2;
+    color: #ffffff;
+}
+
+/* Bouton de Chariot */
+.btn-outline-dark {
+    color: #9AD0C2;
+    border-color: #9AD0C2;
+    transition:  0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #9AD0C2;
+    color: #ffffff;
+}
+
+/* Icône du chariot */
+.bi-cart-fill {
+    margin-right: 5px;
+    font-size: 1.2em;
+
+}
